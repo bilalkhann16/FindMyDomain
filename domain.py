@@ -8,7 +8,7 @@ for i in range (5):
     domain_search.append(ii)
 #api key and secret  generated from GoDaddy
 api_key = 'dLDHUMRNZ45L_QPyhk5hY3MhNN14ZrUkAD1'
-api_secret = 'QNhN1XaVVqG6nZ4AGkdKoa'
+api_secret = 'your api secret key here.' #####
 headers = {"Authorization" : "sso-key {}:{}".format(api_key, api_secret)}
 
 def findmydomain():
