@@ -1,0 +1,94 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Find My Domain </title>  
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
+</head>
+<body>
+  <div id="breadcrumb">
+    <p><b>You are here:</b> Homepage</p>         
+  </div>
+  <div id="content">
+    <div id="sidebar">
+      <div id="logo">
+        <h1><a href="#">Find My Domain</a></h1>
+        <h2><a href="#">Your new domain name.</a></h2>
+      </div>
+      <div id="menu">
+        <ul>
+          <li class="active"><a href="#">Homepage</a></li>
+          <li><a href="https://www.reddit.com/r/ProgrammerHumor/">Programming Memes:)</a></li>
+          <li><a href="#">Patreon</a></li>
+        <!--  <li><a href="#">TBA</a></li>
+          <li><a href="#">TBA</a></li>
+          <li><a href="#">TBA</a></li>  -->
+        </ul>
+      </div>
+      <div id="login" class="boxed">
+        <h2 class="title">Contribution.</h2>
+        <div class="content">
+          <h3><a class='github-projectlink' href='https://www.github.com'>Contibute to the project here.</a></h3> 
+        </div>
+      </div>
+      <div id="updates" class="boxed">
+        <h2 class="title">Follow Me :)</h2>
+        <div class="content">
+          <ul>
+            <li>
+              <h2><a class='twitter-follow' href='https://www.twitter.com/bilalkhann16'>Twitter</a></h2>
+              <!--<p><a href="https:www/twitter.com/bilalkhann16">In posuere eleifend odio quisque semper augue mattis wisi maecenas ligula&#8230;</a></p>
+            --></li>
+            <li>
+              <h2><a class='github-follow' href='https://www.github.com/bilalkhann16'>Github</a></h2>
+              <!--<p><a href="#">Quisque dictum integer nisl risus, sagittis convallis, rutrum id, congue, and nibh&#8230;</a></p>
+              -->   </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <div id="welcome" class="post">
+        <h2 class="title">Welcome to Find My Domain</h2>
+        <h3 class="date"><span class="month">January.</span> <span class="day">4</span><span class="year">, 2020</span></h3>
+        <div class="meta">
+          <p>Posted by Bilal Khan <a href='bilalkhan.live'></a>, <a href="#">Introduction</a><br />
+            </div>
+        <div class="story">
+          <p><strong>Find My Domain</strong> helps you in finding the best domain for you. When you're looking for a new domain, you have to individually search using keywords. It takes time and is boring. On Find My Domain all you need to do is put your 3 keywords and let computer will find the best domains available for each keyword from GoDaddy Database. <em>Enjoy :)</em></p>
+        </div>
+
+        <h1 class="title1">Domain LookUp</h1>
+
+        <form action="/" method= "post">
+          <label for="keyword1">KeyWord1</label>
+          <input name="u"><br><br>
+    
+    
+          <label for="keyword2">KeyWord2</label>
+          <input name="v" type="text" ><br><br>
+    
+          <label for="keyword3">KeyWord3</label>
+          <input name="w" ><br><br> 
+
+          <script>
+            function onSubmit(token) {
+              document.getElementById("demo-form").submit();
+            }
+          </script>
+          <input type="submit" value="LookUp">
+        </form> 
+        
+      </div>
+    </div>
+    <div id="extra" style="clear: both;"></div>
+  </div>
+  <div id="footer">
+    <p id="legal">An OpenSource Project built with ❤️</p>
+    <p id="links"><a href="#">Home</a> | </a></p>
+  </div>
+  </body>
+  </html>
