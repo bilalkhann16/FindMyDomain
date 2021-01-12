@@ -1,5 +1,5 @@
 # FindMyDomain
-Find My Domain helps you in finding the best domain for you. When you're looking for a new domain, you have to individually search using keywords. It takes time and is boring. On Find My Domain all you need to do is put your 3 keywords and let computer will find the best domains available for each keyword from GoDaddy Database. Enjoy :)
+Find My Domain helps you in finding the best domain. When you're looking for a new domain, you have to individually search using keywords. It takes time and is boring. On Find My Domain all you need to do is put your 3 keywords and let computer will find the best domains available for each keyword from GoDaddy Database. Enjoy :)
 
 
 **Requirments**   
